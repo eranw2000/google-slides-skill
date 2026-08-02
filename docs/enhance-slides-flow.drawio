@@ -1,0 +1,121 @@
+<mxfile host="google-slides-skill" type="device">
+  <diagram name="enhance-slides flow" id="flow1">
+    <mxGraphModel dx="1740" dy="700" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1740" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="enhance-slides: agree the design, apply in phases, look at the render" style="text;html=1;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#0050b3;fontFamily=Helvetica;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="1200" height="36" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend" value="&lt;b&gt;Legend&lt;/b&gt;&lt;br&gt;Green: start and finish&lt;br&gt;Blue: a step the skill performs&lt;br&gt;Purple: it stops and waits for your answer&lt;br&gt;Red diamond: the check that gates the report&lt;br&gt;Dashed red arrow: fix it and render again" style="text;html=1;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="20" width="380" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="start" value="A deck that needs work" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="150" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stage1" value="1. Discovery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#0050b3;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;dashed=1;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="225" y="150" width="290" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="Ask two questions: which content sources, and whose branding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="Read the branding site, derive background, accent, body color, font" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="Show the four tokens and wait for approval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stage2" value="2. Audit and back up" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#0050b3;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;dashed=1;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="550" y="150" width="290" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" value="Read the deck, write the audit of what is wrong" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="575" y="210" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" value="Copy the deck to a dated backup before any edit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="575" y="310" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" value="Plan the numbered phases, one batchUpdate each" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="575" y="420" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stage3" value="3. Apply, one phase at a time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#0050b3;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;dashed=1;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="875" y="150" width="290" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="Dry run first, show the counts and placements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="900" y="210" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="Text fixes, titles, design pass, new slides, body styling, icons" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="900" y="310" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Cards, code boxes, real tables, linked contents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="900" y="420" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stage4" value="4. Verify" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#0050b3;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;dashed=1;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="150" width="290" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="Render every slide you touched to a PNG and read the image" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="210" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gate" value="Fits the slide and reads correctly?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="340" width="240" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="finish" value="Deck ready, backup URL recorded" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="380" width="150" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="start" target="a1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="a1" target="a2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="a2" target="a3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a3" target="b1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="b1" target="b2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="b2" target="b3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="b3" target="c1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="c1" target="c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="c2" target="c3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="c3" target="d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="d1" target="gate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontFamily=Helvetica;fontSize=11;" edge="1" parent="1" source="gate" target="finish">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" value="no: drop the font size, split the slide, re-run the phase" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#b85450;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=1;fontFamily=Helvetica;fontSize=11;fontColor=#b85450;verticalAlign=bottom;" edge="1" parent="1" source="gate" target="c3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345" y="620" />
+              <mxPoint x="1020" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
