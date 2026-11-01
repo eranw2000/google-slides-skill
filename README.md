@@ -18,6 +18,8 @@ Source: [docs/enhance-slides-flow.drawio](docs/enhance-slides-flow.drawio) (edit
 
 ## Install
 
+**On Windows:** install [Git for Windows](https://git-scm.com/downloads/win), so Claude Code runs these scripts in Git Bash. Where a command here says `python3` and your PC has only `python`, use `python`. In WSL, follow the Linux steps.
+
 Copy the skill directory into your `~/.claude/skills/` so Claude Code picks it up:
 
 ```bash
