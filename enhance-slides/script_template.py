@@ -31,6 +31,12 @@ Run:
 """
 
 import argparse
+import sys
+# Read and write UTF-8 on every OS: the Windows default code page misreads it.
+if __name__ == "__main__":
+    for _stream in (sys.stdin, sys.stdout, sys.stderr):
+        if hasattr(_stream, "reconfigure"):
+            _stream.reconfigure(encoding="utf-8", errors="replace")
 import json
 import sys
 from pathlib import Path
@@ -297,7 +303,7 @@ def get_credentials():
             creds = run_consent()
     else:
         creds = run_consent()
-    TOKEN_FILE.write_text(creds.to_json())
+    TOKEN_FILE.write_bytes((creds.to_json()).encode("utf-8"))
     return creds
 
 
